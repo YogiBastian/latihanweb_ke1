@@ -1,0 +1,5 @@
+Nama Depan: Igoy, Nama Belakang: Sebastian, Email: Sebastian@gmail.com, Password: 12345, Jenis Kelamin: Laki-laki, Tingkat Pendidikan: Sarjana, Hobi: Membaca, Olahraga
+Nama Depan: Elsa, Nama Belakang: Bastian, Email: Elsa@gmail.com, Password: 12345, Jenis Kelamin: Perempuan, Tingkat Pendidikan: Sarjana, Hobi: Olahraga, Memasak
+Nama Depan: Yogi, Nama Belakang: Bastian, Email: Yogi@gmail.com, Password: 12345, Jenis Kelamin: Laki-laki, Tingkat Pendidikan: Sarjana, Hobi: Membaca, Olahraga, Memasak
+Nama Depan: Suci, Nama Belakang: Nur Fadilah, Email: Suci@gmail.com, Password: 12345, Jenis Kelamin: Perempuan, Tingkat Pendidikan: SMA, Hobi: Membaca, Memasak
+Nama Depan: Ade, Nama Belakang: Yunita, Email: Ade@gmail.com, Password: 12345, Jenis Kelamin: Perempuan, Tingkat Pendidikan: SMA, Hobi: Membaca, Olahraga

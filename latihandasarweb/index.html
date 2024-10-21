@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css?v=2.0"> -->
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+    
+    <form action="proses_pendaftaran.php" method="post">
+        <fieldset>
+            <legend>Informasi Pendaftaran</legend>
+
+            <!-- Nama Depan -->
+            <p>
+                <label for="nama_depan">Nama Depan:</label>
+                <input type="text" id="nama_depan" name="nama_depan" placeholder="Isikan nama depan" required/>
+            </p>
+
+            <!-- Nama Belakang -->
+            <p>
+                <label for="nama_belakang">Nama Belakang:</label>
+                <input type="text" id="nama_belakang" name="nama_belakang" placeholder="Isikan nama belakang" required/>
+            </p>
+
+            <!-- Email -->
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Isikan email" required/>
+            </p>
+
+            <!-- Password -->
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Isikan password" required/>
+            </p>
+
+            <!-- Jenis Kelamin dengan Select -->
+            <p>
+                <label for="jenis_kelamin_select">Jenis Kelamin:</label>
+                <select id="jenis_kelamin_select" name="jenis_kelamin_select">
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </p>
+
+            <!-- Tingkat Pendidikan (Radio Button) -->
+            <p>Tingkat Pendidikan :</p>
+            <p>
+                <input type="radio" id="sma" name="tingkat_pendidikan" value="SMA"/>
+                <label for="sma">SMA</label>
+            </p>
+            <p>
+                <input type="radio" id="sarjana" name="tingkat_pendidikan" value="Sarjana"/>
+                <label for="sarjana">Sarjana</label>
+            </p>
+            <p>
+                <input type="radio" id="magister" name="tingkat_pendidikan" value="Magister" checked/>
+                <label for="magister">Magister</label>
+            </p>
+
+            <!-- Hobi (Checkboxes) -->
+            <p>Hobi (Pilih lebih dari satu):</p>
+            <p>
+                <input type="checkbox" id="hobi_membaca" name="hobi[]" value="Membaca"/>
+                <label for="hobi_membaca">Membaca</label>
+            </p>
+            <p>
+                <input type="checkbox" id="hobi_olahraga" name="hobi[]" value="Olahraga"/>
+                <label for="hobi_olahraga">Olahraga</label>
+            </p>
+            <p>
+                <input type="checkbox" id="hobi_memasak" name="hobi[]" value="Memasak"/>
+                <label for="hobi_memasak">Memasak</label>
+            </p>
+
+            <!-- Tombol Submit -->
+            <p>
+                <input type="submit" value="Daftar"/>
+            </p>
+        </fieldset>
+    </form>
+
+    <!-- Tombol untuk ke halaman data.php -->
+    <button onclick="window.location.href='data.php'">Lihat Data Pendaftar</button>
+
+
+    <p><b>Catatan:</b> Ketika Anda mengetikkan password, karakter yang muncul akan berupa bullet, bukan karakter yang Anda ketikkan karena inputan password tersebut diatur sebagai <i>type="password"</i>.</p>
+    
+</body>
+</html>
