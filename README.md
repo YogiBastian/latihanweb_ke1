@@ -9,7 +9,7 @@ Ini adalah proyek sederhana berupa halaman **Formulir Pendaftaran** yang dibuat 
 ## Fitur Formulir
 - Input teks untuk Nama, Email, dan Password
 - Pilihan Jenis Kelamin
-- Dropdown untuk memilih Tingkat Pendidikan
+- RadioButton untuk memilih Tingkat Pendidikan
 - Checkbox untuk memilih Hobi
 
 ## Teknologi yang Digunakan
