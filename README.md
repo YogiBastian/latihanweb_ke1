@@ -2,11 +2,22 @@
 
 Ini adalah proyek sederhana berupa halaman **Formulir Pendaftaran** yang dibuat menggunakan HTML dan CSS. Proyek ini mencakup form pendaftaran dengan beberapa input seperti nama, email, password, jenis kelamin, tingkat pendidikan, dan hobi.
 
-## Fitur
+## Cara Mengaktifkan CSS
 
-- **Validasi Formulir**: Input form yang wajib diisi (required) seperti nama, email, dan password.
-- **Select dan Radio Button**: Pemilihan jenis kelamin dan tingkat pendidikan menggunakan select dropdown dan radio button.
-- **Checkbox**: Pengguna dapat memilih lebih dari satu hobi.
-- **Responsif**: Halaman ini dibuat responsif sehingga dapat diakses dengan baik di berbagai ukuran layar.
-- **Tombol Submit**: Mengirim data form ke `proses_pendaftaran.php`.
-- **Navigasi ke Halaman Data**: Terdapat tombol untuk menuju halaman `data.php` untuk melihat data pendaftar (belum terintegrasi dalam proyek ini).
+> **Catatan**: Untuk mengaktifkan gaya CSS pada halaman ini, pastikan untuk **menghapus tag komentar** yang ada di bagian `link` CSS di dalam file HTML. Tag tersebut digunakan untuk mendemonstrasikan pengaturan awal dan harus dihapus agar file CSS dapat bekerja dengan benar.
+
+## Fitur Formulir
+- Input teks untuk Nama, Email, dan Password
+- Pilihan Jenis Kelamin
+- Dropdown untuk memilih Tingkat Pendidikan
+- Checkbox untuk memilih Hobi
+
+## Teknologi yang Digunakan
+- HTML
+- CSS
+
+## Cara Menggunakan
+1. Clone repository ini.
+2. Buka file HTML di browser Anda.
+3. Hapus tag komentar di bagian `link` CSS jika belum dihapus.
+4. Lihat dan isi formulir sesuai kebutuhan.
