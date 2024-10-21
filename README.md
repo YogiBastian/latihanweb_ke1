@@ -14,10 +14,9 @@ Ini adalah proyek sederhana berupa halaman **Formulir Pendaftaran** yang dibuat 
 
 ## Teknologi yang Digunakan
 - HTML
+- PHP
 - CSS
 
-## Cara Menggunakan
-1. Clone repository ini.
-2. Buka file HTML di browser Anda.
-3. Hapus tag komentar di bagian `link` CSS jika belum dihapus.
-4. Lihat dan isi formulir sesuai kebutuhan.
+## Cara Menggunakan supaya CSS terintegrasi dengan HTML
+1. Hapus tag komentar di bagian `link` CSS jika belum dihapus.
+2. Linknya ada di `index.html` dan `data.php`
